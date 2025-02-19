@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 30px 0px 30px;
+    ;
+}
+h1{
+    font-size: 24px;
+}
+.maListe{
+    list-style-type: none;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 70px;
+}
+.blocImageNav{
+    width: 65%;
+}
+.maListe li:hover{
+    border-top: solid blue;
+    color: blue;
+}
+.maListe li{
+    height: 85%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    cursor: pointer;
+    width: 170px;
+}
+.noneLi{
+    color: blue;
+    font-weight: bold;
+}
+.noneLi:hover{
+    border-top: none !important;
+}
+.fondIcone{    
+    background-color: #f2f2f2;
+    padding: 15px;
+    font-size: 21px;
+    border-radius: 15px 0px 0px 15px;
+}
+.blocSearch{
+    display: flex;
+    align-items: normal;
+}
+.blocSearch input{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.barreSearch{
+    padding: 15px;
+    font-size: 17px;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+}
+
+.barreSearch::placeholder{
+    color:#bdbdc5;
+}
+
+.boutonSearch{
+    padding: 13px;
+    font-size: 17px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+}
+.blocFiltre{
+    height: 23vh;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    align-items: center;
+}
+.iconeBleu{
+    background-color:#DEEBFF;
+    border-radius: 50%;
+    padding: 15px;
+    color: #0065FC;
+}
+
+.blocFiltre div{
+    display: flex;
+    align-items: center;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    width: 14vw;
+    margin: 12px;
+    cursor: pointer;
+
+}
+.blocFiltre p {
+    margin: 10px;
+    font-weight: bold;
+}
+.blocFiltre div:hover{
+    border: 2px solid #0065FC;
+    color: #0065FC;
+}
+
+ .infoIcone { 
+    font-size: x-large;
+    color: blue;
+    margin-right: 10px;
+ }   
+.blocInfo{
+    display: flex;
+    align-items: baseline;
+}
+.blocAnonceLeft{
+    background-color: #f2f2f2;
+    width: 60%;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+.blocCards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card{
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+}
+.card img{
+    width: 94%;
+    padding: 10px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.textCard{
+    padding: 0px 0px 0px 20px;
+}
+.textCard h4{
+    margin: 0px;
+}
+.textCard p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.blocAnonceRight{
+    background-color: #f2f2f2;
+    width: 32%;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+.containerAnnonce{
+    display: flex;
+    justify-content: space-between;
+}
+.imgAnonce{
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px 0px 0px 25px;
+}
+.popularCard{
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+}
