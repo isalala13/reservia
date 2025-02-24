@@ -80,7 +80,7 @@ nav{
     cursor: pointer;
 }
 .blocFiltre{
-    height: 23vh;
+    height: 16vh;
     display: flex;
     justify-content: space-around;
     width: 60%;
@@ -120,6 +120,7 @@ nav{
 .blocInfo{
     display: flex;
     align-items: baseline;
+    margin-bottom: 20px;
 }
 .blocAnonceLeft{
     background-color: #f2f2f2;
@@ -203,4 +204,27 @@ nav{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+.elementLink{
+    width: 100%;
+    padding: 20px 0px;
+}
+.elementLink a{
+    padding: 41px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration:none;
+    color: black;
+}
+.blocImageActivity{
+  width: 25%;
+  height: 500px;
+  border-radius: 4%;
+  box-shadow: 0px 0px 8px 0px grey;
+}
+.blocImageActivity img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;   
 }
